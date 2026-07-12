@@ -178,3 +178,15 @@ with open(
 ) as file:
 
     file.write(report)
+try:
+
+    data = pd.read_csv(
+    "student_data.csv"
+    )
+
+
+except FileNotFoundError:
+
+    st.error(
+    "Student data file not found"
+    )
