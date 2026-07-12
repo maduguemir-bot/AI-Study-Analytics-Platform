@@ -31,3 +31,15 @@ print("Step 4: Review and test your knowledge")
 
 
 print("\nGood luck with your learning!")
+print("\nPractice Questions:")
+
+print("1. What is", topic, "?")
+
+print("2. Explain three applications of", topic)
+
+print("3. What are the advantages of", topic)
+
+print("4. What challenges exist in", topic)
+
+print("5. Explain why", topic, "is important.")
+
