@@ -17,8 +17,24 @@ st.write(
 
 # Load data
 
-data = pd.read_csv(
-"student_data.csv"
+#data = pd.read_csv(
+#"student_data.csv"
+#)
+import sqlite3
+import pandas as pd
+
+
+connection = sqlite3.connect(
+"students.db"
+)
+
+
+data = pd.read_sql_query(
+
+"SELECT * FROM students",
+
+connection
+
 )
 
 
