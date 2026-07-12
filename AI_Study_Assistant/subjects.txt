@@ -1,0 +1,8 @@
+The AI tutor can support:
+
+- Mathematics
+- Computer Science
+- Biology
+- Engineering
+- Business
+- Research Methods
