@@ -1,81 +1,92 @@
 # AI Study Analytics Platform
 
 
-## Project Overview
+## Overview
 
-The AI Study Analytics Platform is an educational artificial intelligence project designed to support students and teachers.
+The AI Study Analytics Platform is an educational technology solution that combines Artificial Intelligence and Data Analytics to support students and teachers.
 
-The project combines:
+
+The platform contains:
 
 1. AI Study Assistant
 2. Student Performance Analytics Dashboard
+3. AI-Generated Educational Reports
 
 
-## Problem Statement
-
-Many students need personalized learning support while educators need better ways to analyse academic performance.
+---
 
 
-## Project Objectives
+# Problem Statement
+
+Students require personalized learning support while teachers need better tools for analysing academic performance.
+
+
+---
+
+
+# Objectives
+
+The project aims to:
 
 - Provide AI-assisted learning support.
-- Help students understand difficult concepts.
 - Analyse student academic performance.
-- Generate useful educational insights.
+- Identify students requiring support.
+- Generate intelligent educational recommendations.
 
 
-## Technologies Used
+---
 
-- Artificial Intelligence
-- ChatGPT
+
+# Key Features
+
+
+## AI Study Assistant
+
+Provides:
+
+- Topic explanations.
+- Study guidance.
+- Revision questions.
+- Learning recommendations.
+
+
+## Analytics Dashboard
+
+Provides:
+
+- Student performance analysis.
+- Data visualization.
+- Performance indicators.
+- Risk identification.
+
+
+## AI Reports
+
+Generates:
+
+- Performance summaries.
+- Educational insights.
+- Teacher recommendations.
+
+
+---
+
+
+# Technologies Used
+
 - Python
-- Data Analytics
+- ChatGPT API
+- Streamlit
+- Pandas
+- Matplotlib
 - GitHub
 
 
-## Main Components
+---
 
 
-### 1. AI Study Assistant
-
-Provides:
-
-- Learning explanations
-- Study recommendations
-- Revision support
+# Installation
 
 
-### 2. Student Analytics Dashboard
+Clone the repository:
 
-Provides:
-
-- Performance analysis
-- Charts
-- Academic insights
-
-
-## Future Improvements
-
-- Develop a web application.
-- Add database support.
-- Integrate advanced AI models.
-- Create a mobile application.
-
-
-## Project Status
-
-Development Stage: Beginner Prototype
-
-
-## Developer
-
-AI Skills Development Project
-## Dashboard Features
-
-The platform includes:
-
-- AI Study Assistant
-- Student performance dashboard
-- Data visualization
-- Academic risk identification
-- AI-based recommendations
