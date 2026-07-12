@@ -1,0 +1,21 @@
+AI STUDY ASSISTANT PROMPT LIBRARY
+
+
+PROMPT 1:
+Explain this topic like a university lecturer.
+
+
+PROMPT 2:
+Explain this topic using simple language for beginners.
+
+
+PROMPT 3:
+Create five examination questions about this topic.
+
+
+PROMPT 4:
+Create a one-week study timetable.
+
+
+PROMPT 5:
+Identify the most important concepts students should understand.
