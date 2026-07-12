@@ -70,3 +70,12 @@ Development Stage: Beginner Prototype
 ## Developer
 
 AI Skills Development Project
+## Dashboard Features
+
+The platform includes:
+
+- AI Study Assistant
+- Student performance dashboard
+- Data visualization
+- Academic risk identification
+- AI-based recommendations
