@@ -3,48 +3,36 @@
 
 ## Overview
 
-The AI Study Analytics Platform is an educational technology solution that combines Artificial Intelligence and Data Analytics to support students and teachers.
+The AI Study Analytics Platform is an educational artificial intelligence system that combines:
+
+1. AI-powered student learning assistance.
+2. Academic performance analytics.
+3. Automated educational recommendations.
 
 
-The platform contains:
+## Problem
 
-1. AI Study Assistant
-2. Student Performance Analytics Dashboard
-3. AI-Generated Educational Reports
+Many students require personalized learning support while teachers need better tools for analysing academic performance.
 
 
----
+## Solution
+
+This project provides:
+
+- AI learning assistance.
+- Student performance analysis.
+- Interactive dashboards.
+- AI-generated academic reports.
 
 
-# Problem Statement
-
-Students require personalized learning support while teachers need better tools for analysing academic performance.
-
-
----
-
-
-# Objectives
-
-The project aims to:
-
-- Provide AI-assisted learning support.
-- Analyse student academic performance.
-- Identify students requiring support.
-- Generate intelligent educational recommendations.
-
-
----
-
-
-# Key Features
+# Features
 
 
 ## AI Study Assistant
 
 Provides:
 
-- Topic explanations.
+- Concept explanations.
 - Study guidance.
 - Revision questions.
 - Learning recommendations.
@@ -56,37 +44,67 @@ Provides:
 
 - Student performance analysis.
 - Data visualization.
-- Performance indicators.
 - Risk identification.
+- Academic trends.
 
 
-## AI Reports
+## AI Reporting System
 
 Generates:
 
 - Performance summaries.
-- Educational insights.
-- Teacher recommendations.
-
-
----
+- Educational recommendations.
+- Intervention strategies.
 
 
 # Technologies Used
 
 - Python
 - ChatGPT API
-- Streamlit
 - Pandas
 - Matplotlib
+- Streamlit
 - GitHub
 
 
----
+# Project Structure
 
 
-# Installation
+AI-Study-Analytics-Platform
+## Installation
 
 
 Clone the repository:
 
+
+git clone repository-link
+
+
+Install requirements:
+
+
+pip install -r requirements.txt
+
+
+Run dashboard:
+
+
+streamlit run dashboard.py
+
+
+
+## Future Development
+
+
+Future improvements:
+
+- Mobile application.
+- Voice assistant.
+- Real school database integration.
+- Advanced machine learning models.
+
+
+## Author
+
+
+AI Skills Development Project
