@@ -1,8 +1,6 @@
 import sqlite3
 
 
-# Create connection
-
 connection = sqlite3.connect(
 "students.db"
 )
@@ -11,9 +9,33 @@ connection = sqlite3.connect(
 cursor = connection.cursor()
 
 
-print(
-"Database created successfully"
+cursor.execute("""
+
+CREATE TABLE IF NOT EXISTS students (
+
+id INTEGER PRIMARY KEY,
+
+name TEXT,
+
+gender TEXT,
+
+attendance INTEGER,
+
+study_hours INTEGER,
+
+exam_score INTEGER
+
 )
 
+""")
+
+
+connection.commit()
+
+
+connection.close()
+
+
+print("Student table created")
 
 connection.close()
