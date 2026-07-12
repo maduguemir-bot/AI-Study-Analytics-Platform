@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+
+# Python temporary files
+__pycache__/
+
+
+# Compiled Python files
+*.pyc
+
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+
+# Operating system files
+.DS_Store
+Thumbs.db
