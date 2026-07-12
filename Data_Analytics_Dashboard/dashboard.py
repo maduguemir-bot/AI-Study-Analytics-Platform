@@ -160,3 +160,21 @@ Based on the analysis:
 
 """
 )
+from ai_report_generator import generate_report
+if st.button(
+"Generate AI Report"
+):
+
+    report = generate_report()
+
+    st.subheader(
+    "AI Teacher Report"
+    )
+
+    st.write(report)
+with open(
+"AI_Performance_Report.txt",
+"w"
+) as file:
+
+    file.write(report)
